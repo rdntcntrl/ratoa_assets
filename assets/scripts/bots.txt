@@ -1,0 +1,235 @@
+// Angelyss model
+{
+name		Angelyss
+model		angelyss
+aifile	bots/angelyss_c.c
+color1 H137
+color2 H137
+}
+{
+name		Dark
+model		angelyss/dark
+aifile	bots/dark_c.c
+color1 H354
+color2 H354
+}
+{
+name		Murielle
+model		angelyss/retro
+aifile	bots/angelyss_c.c
+color1 H189
+color2 H189
+}
+{
+name		Tanisha
+model		angelyss/tanisha
+aifile	bots/tanisha_c.c
+color1 H290
+color2 H240
+}
+{
+name		Rai
+model		angelyss/rai
+aifile	bots/rai_c.c
+color1 H329
+color2 H329
+}
+// Arachna model
+{
+name		Arachna
+model		arachna
+aifile	bots/arachna_c.c
+color1 H33
+color2 H33
+}
+// Assassin model
+{
+name		Assassin
+model		assassin
+aifile	bots/sergei_c.c
+color1 H228
+color2 H228
+}
+{
+name		Ghost
+model		assassin/ghost
+aifile	bots/sergei_c.c
+color1 H343
+color2 H343
+}
+// Ayumi model
+{
+name		Ayumi
+model		ayumi
+aifile	bots/ayumi_c.c
+color1 H351
+color2 H351
+}
+{
+name		Jenna
+model		ayumi/blue
+aifile	bots/ayumi_c.c
+color1 H184
+color2 H184
+}
+// Beret model
+{
+name		Beret
+model		beret
+aifile	bots/beret_c.c
+color1 H9
+color2 H9
+}
+{
+name		Headcrash
+model		beret/headcrash
+aifile	bots/beret_c.c
+color1 H67
+color2 H67
+}
+{
+name		Morgan
+model		beret/macho
+aifile	bots/beret_c.c
+color1 H240
+color2 H240
+}
+// Gargoyle model
+{
+name		Gargoyle
+model		gargoyle
+aifile	bots/gargoyle_c.c
+color1 H122
+color2 H122
+}
+{
+name		Broadklin
+model		gargoyle/stone
+aifile	bots/gargoyle_c.c
+color1 H332
+color2 H332
+}
+{
+name		Cyber-Garg
+model		gargoyle/tech
+aifile	bots/gargoyle_c.c
+color1 H223
+color2 H223
+}
+// Kyonshi model
+{
+name		Kyonshi
+model		kyonshi
+aifile	bots/kyonshi_c.c
+color1 H336
+color2 H336
+}
+// Liz model
+{
+name		Liz
+model		liz
+aifile	bots/liz_c.c
+color1 H145
+color2 H145
+}
+// Major model
+{
+name		Major
+model		major
+aifile	bots/major_c.c
+color1 H258
+color2 H258
+}
+// Merman model
+{
+name		Merman
+model		merman
+aifile	bots/merman_c.c
+color1 H215
+color2 H215
+}
+// Penguin model
+{
+name		Penguin
+model		penguin
+aifile	bots/penguin_c.c
+color1 H189
+color2 H189
+}
+// Sarge model
+{
+name		Sarge
+model		sarge
+aifile	bots/sarge_c.c
+color1 H182
+color2 H182
+}
+{
+name		Andriy
+model		sarge/indigo
+aifile	bots/sarge_c.c
+color1 H135
+color2 H135
+}
+{
+name		Grism
+model		sarge/classic
+aifile	bots/grism_c.c
+color1 H146
+color2 H146
+}
+// Sergei model
+{
+name		Sergei
+model		sergei
+aifile	bots/sergei_c.c
+color1 H45
+color2 H45
+}
+// Skelebot model
+{
+name		Skelebot
+model		skelebot
+aifile	bots/skelebot_c.c
+color1 H117
+color2 H117
+}
+{
+name		Metalbot
+model		skelebot/metal
+aifile	bots/skelebot_c.c
+color1 H119
+color2 H119
+}
+// S_Marine model
+{
+name		Grunt
+model		smarine
+aifile	bots/grunt_c.c
+color1 H6
+color2 H6
+}
+{
+name		S_Marine
+model		smarine/orange
+aifile	bots/grunt_c.c
+color1 H329
+color2 H329
+}
+// Sorceress model
+{
+name		Sorceress
+model		sorceress/blue
+aifile	bots/major_c.c
+color1 H276
+color2 H276
+}
+// Tony model
+{
+name		Tony
+model		tony
+aifile	bots/tony_c.c
+color1 H162
+color2 H162
+}
+
