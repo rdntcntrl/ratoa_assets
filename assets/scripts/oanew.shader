@@ -288,6 +288,8 @@ textures/base_trim/tinfx
 
 console
 {
+	nomipmaps
+	nopicmip
 	{
 		map textures/sfx/console_trebrat_head.tga
 	}
