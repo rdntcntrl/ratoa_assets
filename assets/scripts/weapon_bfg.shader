@@ -139,7 +139,9 @@ BFGTrail
 		blendfunc add
 		rgbGen const ( 0.286275 0.54902 0.25098 )
 		tcMod rotate -1222
-		tcMod stretch sin 1.3 0.3 0 4 
+
+	 	// causes annoying flash when firing:
+		//tcMod stretch sin 1.3 0.3 0 4 
 	}
 }
 
