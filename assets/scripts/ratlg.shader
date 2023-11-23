@@ -36,4 +36,13 @@ lightningBoltRat3
 	}
 }
 
-
+lightningBoltRat4
+{
+	cull none
+	nopicmip
+	{
+		map gfx/misc/ratlgsimple.tga
+		rgbgen wave sin 1 0.1 0 1.8
+		blendfunc add
+	}
+}
