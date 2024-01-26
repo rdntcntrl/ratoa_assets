@@ -20,7 +20,6 @@ lightningExplosion
 	}
 }
 
-
 /* BFG explosion: inversesawtooth can be glitchy when seen from faraway (especially with 0 baseline value)
    take care when using it */
 bfgExplosion
@@ -100,7 +99,6 @@ railExplosion
 	}
 }
 
-
 bloodExplosion
 {
 	nopicmip
@@ -122,7 +120,7 @@ bloodExplosion
 
 /* Rocket explosion: inversesawtooth can be glitchy when seen from faraway (especially with 0 baseline value)
    take care when using it */
-rocketExplosion
+rocketExplosion1
 {
 	nopicmip
 	{
@@ -165,9 +163,30 @@ rocketExplosion
 	}
 }
 
-
 /* Rocket explosion: inversesawtooth can be glitchy when seen from faraway (especially with 0 baseline value)
    take care when using it */
+rocketExplosion2
+{
+	nopicmip
+	{
+		animmap 8 models/weaphits/rlboom/rlboom_1.tga models/weaphits/rlboom/rlboom_2.tga models/weaphits/rlboom/rlboom_3.tga models/weaphits/rlboom/rlboom_4.tga models/weaphits/rlboom/rlboom_5.tga models/weaphits/rlboom/rlboom_6.tga models/weaphits/rlboom/rlboom_7.tga models/weaphits/rlboom/rlboom_8.tga 
+		blendfunc gl_one gl_src_alpha
+		rgbGen wave inversesawtooth 0 1 0 8 
+	}
+	{
+		animmap 8 models/weaphits/rlboom/rlboom_2.tga models/weaphits/rlboom/rlboom_3.tga models/weaphits/rlboom/rlboom_4.tga models/weaphits/rlboom/rlboom_5.tga models/weaphits/rlboom/rlboom_6.tga models/weaphits/rlboom/rlboom_7.tga models/weaphits/rlboom/rlboom_8.tga models/weaphits/rlboom/rlboom_8.tga 
+		blendfunc gl_one gl_src_alpha
+		rgbGen wave sawtooth 0 1 0 8 
+	}	
+	{
+		clampmap textures/oa/fiar2.tga
+		blendfunc add
+		rgbGen wave inversesawtooth 0 1 0 1 
+		tcMod rotate 33
+		tcMod stretch sin 0.2 1 0 0.4 
+	}
+}
+
 grenadeExplosion
 {
 	nopicmip
