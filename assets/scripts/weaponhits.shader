@@ -120,7 +120,7 @@ bloodExplosion
 
 /* Rocket explosion: inversesawtooth can be glitchy when seen from faraway (especially with 0 baseline value)
    take care when using it */
-rocketExplosion1
+rocketExplosion
 {
 	nopicmip
 	{
